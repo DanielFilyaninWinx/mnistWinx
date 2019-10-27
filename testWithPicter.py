@@ -22,8 +22,8 @@ if __name__ == '__main__':
 	os.chdir(os.getcwd() + '/test')
 	print( os.getcwd() )
 	# Загружаем свою картинку
-	name = '1.jpg'
-	img_path = input('test//' + name)
+	name = '3.jpg'
+	img_path = input('doc//' + name)
 	img = image.load_img(img_path, target_size=(28, 28), color_mode="grayscale")
 
 	plt.imshow(img.convert('RGBA'))
